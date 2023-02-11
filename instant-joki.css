@@ -1,0 +1,300 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+}
+link {
+  display: none;
+}
+
+#carouselExampleDark {
+  margin-top: 75px;
+}
+
+.btn {
+  background-color: #e80505;
+  border: none;
+}
+/* info joki */
+
+.info-panel {
+  font-family: 'Poppins', sans-serif;
+  margin-left: 20px;
+  padding-top: 20px;
+  font-size: 20px;
+  color: rgb(8, 2, 21);
+  text-shadow: 2px 2px 1px rgb(252, 252, 252);
+}
+
+.semua-kategori {
+  width: 90%;
+  height: 120px;
+  display: grid;
+  margin: 10px auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 100px 100px 100px 100px;
+  justify-content: space-evenly;
+  gap: 20px;
+  box-shadow: 5px 5px 12.5 #f7f7f7;
+  text-align: center;
+}
+.kategori-panel {
+  border-radius: 7px 7px 7px 7px;
+}
+.kategori-panel h3 {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.kategori-panel img {
+  height: 80px;
+  width: 80px;
+  border-radius: 5px 5px 5px 5px;
+}
+.kategori-panel a {
+  text-decoration: none;
+  color: #1f1c2d;
+  text-align: center;
+}
+/* akhir info joki */
+/* paket joki */
+.tentangjoki {
+  height: 550px;
+  margin: 50px auto 50px;
+  padding: 10px 5px 10px;
+  background: linear-gradient(to top left, #476892, #59355d);
+  color: #e0f80c;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 1px -1px 5px rgba(30, 51, 51, 0.5);
+}
+
+.tentangjoki h3 {
+  padding-left: 20px;
+  text-transform: uppercase;
+  font-style: oblique;
+  width: 90%;
+  padding-top: 20px;
+}
+.tentangjoki p {
+  font-size: 12px;
+  padding-left: 20px;
+  color: #f7f7f7;
+  margin-left: -10px;
+}
+.container-p {
+  font-size: 12px;
+  width: 65%;
+}
+
+.konsultasi {
+  background-color: #e80505;
+  border-radius: 5px;
+  width: 150px;
+  padding: 5px;
+  text-align: center;
+  margin-left: 20px;
+}
+.konsultasi a {
+  text-decoration: none;
+  color: #f7f7f7;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.layla {
+  position: absolute;
+  right: -220px;
+  bottom: -50px;
+}
+
+.variant {
+  padding-left: 20px;
+}
+
+.variant span {
+  text-transform: capitalize;
+  font-size: 16px;
+}
+
+/* paket joki */
+.list-joki {
+  display: grid;
+  grid-template-columns: repeat(2, 180px);
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+.juduljoki {
+  font-family: 'Poppins', sans-serif;
+  margin-left: 20px;
+  padding-top: 20px;
+  font-size: 20px;
+  color: rgb(8, 2, 21);
+  text-shadow: 2px 2px 1px rgb(252, 252, 252);
+}
+/* card paket rank */
+.card-title {
+  color: rgb(243, 181, 23);
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px black;
+}
+.list-joki {
+  border-bottom: #e0f80c;
+  padding: 20px;
+}
+.card-body {
+  margin-left: -12px;
+}
+.card-text {
+  list-style: none;
+  margin-left: -20px;
+  font-size: 12px;
+}
+.card-text svg {
+  margin-right: 5px;
+}
+.container-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.juduljoki {
+  border-bottom: 5px solid #e80505;
+  width: 185px;
+  border-radius: 5px;
+}
+.juduljoki.clasic {
+  width: 200px;
+}
+.juduljoki.juduljoki.clasic-game {
+  width: 210px;
+}
+/* cara bayar */
+.cara-order {
+  padding: 20px;
+  background-color: white;
+  box-shadow: 1px 1px 10px rgba(30, 51, 51, 0.5);
+  margin-top: 50px;
+}
+.judul {
+  margin: 20px;
+  text-align: center;
+  font-size: 12px;
+}
+.judul span {
+  color: #e80505;
+}
+.totur a {
+  text-decoration: none;
+  color: #e80505;
+}
+.totur {
+  font-size: 12px;
+}
+.ilustrasi {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  display: inline-block;
+}
+.text {
+  width: 300px;
+  margin-left: 70px;
+  margin-top: -60px;
+}
+
+.judul.hubungi {
+  margin-top: 100px;
+  text-align: center;
+}
+.judul.hubungi h3 {
+  margin-bottom: 20px;
+}
+.testimoni {
+  margin-top: 20px;
+}
+.testimoni a {
+  text-decoration: none;
+  background-color: #e80505;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+  margin: 5px auto 5px;
+}
+
+.about {
+  background-color: #f7f7f7;
+  text-align: center;
+  margin: 50px auto 50px;
+  padding: 50px;
+  box-shadow: 1px -1px 5px rgba(30, 51, 51, 0.5);
+}
+.about li {
+  list-style: none;
+  margin-left: -30px;
+}
+
+.about ol {
+  width: 120px;
+  margin: 0 auto 0;
+  text-align: center;
+}
+
+.about span {
+  color: #e80505;
+  margin-bottom: 50px;
+}
+.about a {
+  text-decoration: none;
+  color: #e80505;
+}
+
+.hubungi-kami {
+  margin-top: 40px;
+}
+.hubungi-kami li {
+  text-align: left;
+}
+
+@media (min-width: 992px) {
+  .info-panel {
+    font-size: 40px;
+  }
+  .info-panel h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+  }
+  .kategori-panel h3 {
+    font-size: 26px;
+  }
+  .kategori-panel img {
+    height: 150px;
+    width: 150px;
+  }
+  /* tentang */
+  .tentangjoki {
+    margin: 100px auto 50px;
+  }
+  .tentangjoki p {
+    font-size: 20px;
+    padding-left: 20px;
+    color: #f7f7f7;
+    margin-left: -10px;
+  }
+  /* list joki */
+  .list-joki {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 200px);
+    justify-content: start;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  /* testi */
+  .testi img {
+    width: 250;
+    background-size: cover;
+  }
+}
